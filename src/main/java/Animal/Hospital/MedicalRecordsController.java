@@ -27,7 +27,7 @@ public boolean medicalRequest(@RequestParam Long reservationId,
         throws Exception {
         System.out.println("##### /medicalRecords/medicalRequest  called #####");
         
-        MedicalRecords medicalRecords = new MedicalRecords();
+        MedicalRecord medicalRecords = new MedicalRecord();
         
         medicalRecords.setReservationId(reservationId);
         medicalRecords.setDoctor(doctor);

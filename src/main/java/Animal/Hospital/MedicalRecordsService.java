@@ -9,7 +9,7 @@ public class MedicalRecordsService {
 	@Autowired
 	private MedicalRecordsRepository medicalRecordsRepository;
 
-	public void save(MedicalRecords medicalRecords) {
+	public void save(MedicalRecord medicalRecords) {
 		medicalRecordsRepository.save(medicalRecords);
 	}
 	
