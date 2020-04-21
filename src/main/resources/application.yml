@@ -23,10 +23,10 @@ spring:
                 value:
                   serde: org.apache.kafka.common.serialization.Serdes$StringSerde
       bindings:
-        event-in:
-          group: diagnosis
-          destination: animal
-          contentType: application/json
+#        event-in:
+#          group: diagnosis
+#          destination: animal
+#          contentType: application/json
         event-out:
           destination: animal
           contentType: application/json
@@ -55,10 +55,10 @@ spring:
                 value:
                   serde: org.apache.kafka.common.serialization.Serdes$StringSerde
       bindings:
-        event-in:
-          group: diagnosis
-          destination: animal
-          contentType: application/json
+#        event-in:
+#          group: diagnosis
+#          destination: animal
+#          contentType: application/json
         event-out:
           destination: animal
           contentType: application/json
