@@ -1,8 +1,9 @@
 package Animal.Hospital;
 
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface MedicalRecordsRepository extends PagingAndSortingRepository<MedicalRecords, Long>{
+
+public interface MedicalRecordsRepository extends CrudRepository<MedicalRecords, Long>{
 
 
 }
